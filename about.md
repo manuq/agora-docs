@@ -20,6 +20,11 @@ It's important to point out that many of components described here already
 exists as part of other projects. In particular we borrow heavily from the
 Mozilla's platform.
 
+## Eta
+
+Eta is a set of python scripts which will take care of building all the Agora
+components and package them up as an application or a full system image.
+
 ## Sigma
 
 Sigma is the base system. Implementations might differ greatly depending on
@@ -44,17 +49,16 @@ the top of other systems like Linux or OS X.
     It's a development tool used by the Xi libraries and the Omega activities.
     It automates depedency management for JavaScript projects.
 
-### Native implementations, in progress
+### In progress ports
 
-* linux
+* Linux
 
-    Composed by a minimal set of Fedora packages plus builds of the common
-    elements described above. It runs inside a chroot inside another linux
-    distribution and as a standalone image, either virtualized or natively.
+    It's based on a typical Linux distribution. It allows to run native
+    gtk applications using the broadway backend.
 
-### Native implementations, planned
+### Planned ports
 
-* gonk
+* Gonk
 
     It's based on Mozilla's gonk, which is in turn based on Android. The
     main benefit is that it allows to run Agora on mobile devices.
