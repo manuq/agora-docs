@@ -49,8 +49,7 @@ the top of other systems like Linux or OS X.
 
 * Linux
 
-    It's based on a typical Linux distribution. It allows to run native
-    gtk applications using the broadway backend.
+    It's based on a typical Linux distribution.
 
 ### Ports (planned)
 
