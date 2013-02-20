@@ -56,8 +56,10 @@ The xo files are in the build directory.
 
 * The conversion script is very basic, just demonstrative really. The logic
 is very simple though, it should be easy to extend it as necessary.
-* This will be a lot moreinteresting as soon as we will have a reasonably
+* This will be a lot more interesting as soon as we will have a reasonably
 complete implementation of xi-graphics and a sugar implementation of
 xi-datastore and xi-collaboration. At that point it will be possible to write
 web applications that will feel exactly like a native activity when running
 inside sugar.
+* The easiest way to implement the xi API for Sugar is probably to send
+messages to the native python activity implementation.
