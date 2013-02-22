@@ -1,3 +1,15 @@
+# Prerequisites
+
+So far agora has been tested on
+
+Fedora 18 (64-bit)
+Debian Wheezy (64-bit)
+
+It probably works also on Ubuntu 12.10 (64-bit). If you can choose, Fedora 18
+is, at the moment, the one which is more likely to work out of the box.
+
+Before starting make sure git, python3, yum and curl are installed.
+
 # Build
 
 First clone the agora repository
