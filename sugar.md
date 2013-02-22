@@ -54,6 +54,11 @@ The xo files are in the build directory.
 
 ## Future work
 
+* The ability to develop activities only in Linux has been a limiting factor
+for Sugar. On the short time the role of Agora might that of a cross platform
+development environment for Sugar. In fact it will easily build in mac os
+and hopefully windows. People might test activities there and than just
+run the conversion script to generate a xo.
 * The conversion script is very basic, just demonstrative really. The logic
 is very simple though, it should be easy to extend it as necessary.
 * This will be a lot more interesting as soon as we will have a reasonably
