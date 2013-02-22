@@ -37,3 +37,22 @@ but there are cases where you might want to override it. Currently we support
 Here is an example config.json
 
     {"build_type": "chroot"}
+
+# Create a new activity
+
+You need to enter the development shell first
+
+    ./agora shell
+
+Then setup an activity project using volo
+
+    volo create omega/helloworld ayopa/omega-activity
+
+To add one of the xi libraries you can use the volo add command
+
+    volo add apoya/xi-artwork
+
+If you build and run agora, you should see the new activity
+
+    ./agora build
+    ./agora run
