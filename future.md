@@ -1,10 +1,35 @@
-# Themes
+# Development themes
 
-Future milestones will be focused on the following themes
+# Current
 
-* Agora as a cross platform development environment for Sugar activities.
-* Agora running on mobile devices, on the top of Android.
-* Agora as a Linux desktop.
-* Agora as a collection of web applications you can run in your browser.
-* A full html5 based reimplementation of the Sugar visual components.
-* Integration with Sugar datastore and collaboration services.
+* Cross platform SDK
+
+    * SDK binaries for Windows, OS X, Linux (x86-64)
+    * Full html5 based reimplementation of Sugar visual components.
+    * Integration with Sugar datastore and collaboration.
+    * Script to convert a webapp into a xo file.
+
+# Future
+
+* Agora shell
+
+    * Reimplementation of the Sugar shell using the xi libraries.
+
+* Agora on Android
+
+    * Requires Agora shell and Cross platform SDK.
+    * Agora running on Gonk.
+    * Support the various Firefox OS ports.
+    * Port or reimplementation of datastore and collaboration.
+    * Binaries.
+
+* Agora on Linux
+
+    * Requires Agora shell and Cross platform SDK.
+    * Minimal window manager.
+    * Image build into a chroot.
+
+* Agora on the Web
+
+    * Requires Cross platform SDK.
+    * Web only implementation of datastore and collaboration.
